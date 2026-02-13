@@ -1,3 +1,11 @@
 spring:
   application:
     name: aichatdemo
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.aichatdemo: DEBUG
